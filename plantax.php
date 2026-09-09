@@ -19,7 +19,7 @@ class Planta{
     }
     public function criarFolhas($quantidade){
         $this->folhas+=$quantidade;
-        echo $this->nome.' criou '.$quantidade.' folhas. Agora ela tem '.$this->agua.' folhas.<br>';
+        echo $this->nome.' criou '.$quantidade.' folhas. Agora ela tem '.$this->folhas.' folhas.<br>';
     }
 }
 
